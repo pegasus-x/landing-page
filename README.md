@@ -31,7 +31,7 @@ This project is a clean and responsive landing page built using **HTML5** and **
 
 ##  File Structure
 
-responsive-landing-page/
+anding-page/
 ├── index.html            # Main HTML file
 ├── style.css             # Main stylesheet
 ├── icons/                # Folder for image assets

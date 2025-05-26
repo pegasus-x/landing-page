@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+            <img src="icons/logo.png" alt="Logo" width="50" height="50">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">&#9776;</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to my Landing Page</h1>
+            <p>Build modern, responsive websites with ease today!</p>
+            <a href="#" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Built with ❤️ by Rati Ranjan</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                    <img src="icons/instagram.webp" alt="Instagram Icon" width="24" height="24">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                    <img src="icons/facebook.webp" alt="Facebook Icon" width="24" height="24">
+                </a>
+                <a href="https://www.x.com/" target="_blank" aria-label="Twitter">
+                    <img src="icons/X.webp" alt="Twitter Icon" width="24" height="24">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+<script>
+    // Simple nav toggle for mobile
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</html>
